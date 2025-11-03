@@ -1,16 +1,139 @@
-# React + Vite
+🛒 E-Commerce de Café
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado con React + Vite + JavaScript + CSS
 
-Currently, two official plugins are available:
+Este proyecto es un e-commerce simple totalmente funcional: incluye catálogo, carrito persistente, detalle de producto y un checkout simulado. Está diseñado para ser rápido, moderno y fácilmente escalable, usando buenas prácticas de UI/UX y un front limpio y modular.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ideal como portfolio, base de proyecto o punto de partida para un e-commerce real.
 
-## React Compiler
+🚀 Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite — Bundler ultra rápido
 
-## Expanding the ESLint configuration
+React + React Router — SPA moderna
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript — Lógica de UI y estado
+
+CSS modular (globals.css) — Diseño oscuro, cards alineadas, responsive
+
+Zustand — Estado global sencillo para carrito (con persistencia)
+
+localStorage — Guardado de carrito entre sesiones
+
+✅ Funcionalidades principales
+🛍️ Catálogo de productos
+
+Listado dinámico desde /src/data/products.js
+
+Imágenes personalizadas para cada producto
+
+Cards uniformes, responsive y con estilos consistentes
+
+🛒 Carrito de compras
+
+Agregar / remover / actualizar cantidades
+
+Carrito persistente en localStorage
+
+Cálculo de totals y subtotals
+
+Vista de carrito separada
+
+🔎 Detalle de producto
+
+URL dinámica /product/:id
+
+Imagen grande + descripción + precio
+
+✅ Checkout simulado
+
+Form de comprador
+
+Selección de provincia y método de pago
+
+Estado “Procesando…”
+
+Generación de número de orden
+
+Vista de “Compra Exitosa”
+
+🎨 Diseño limpio y responsive
+
+Dark mode por defecto
+
+Cards alineadas con flexbox
+
+Imágenes con proporción uniforme (3:2)
+
+Botones y tipografía consistentes
+
+Footer simple y elegante
+
+🛠️ Instalación y uso
+
+Cloná el repositorio:
+
+git clone https://github.com/tuusuario/tu-repo.git
+cd tu-repo
+
+
+Instalá dependencias:
+
+npm install
+
+
+Modo desarrollo:
+
+npm run dev
+
+
+Build para producción:
+
+npm run build
+
+
+Previsualizar build:
+
+npm run preview
+
+📦 Datos de productos
+
+Los productos se editan en:
+
+src/data/products.js
+
+
+Ejemplo:
+
+{
+  id: "cafe-1",
+  title: "Café Blend 250g",
+  price: 4200,
+  image: "/img/blend-250.png",
+  stock: 12,
+  description: "Blend balanceado..."
+}
+
+🧪 Mejoras futuras (Roadmap)
+
+✅ Filtros por categoría
+
+✅ Búsqueda por texto
+
+✅ Cupones de descuento
+
+✅ Light/Dark mode con toggle
+
+✅ Soporte para variaciones (grano/molido)
+
+✅ Backend real (Express / Firebase)
+
+✅ Autenticación (login + orders)
+
+📄 Licencia
+
+Este proyecto es de uso libre para portfolio y proyectos personales.
+
+⭐ Si te gustó…
+
+Dale una ⭐ en GitHub (¡ayuda muchísimo!)
